@@ -45,7 +45,7 @@
             <li>z: <span id="color-z" class="datos-color"> </span></li>
         </ul>
     </div>
-    <a-scene inspector="url: http://localhost:3333/dist/aframe-inspector.js">
+    <a-scene >
         <!-- 
             <a-camera position="4 4 -3"></a-camera>
             <a-plane color="#33ff93" height="20" width="20" rotation="-90 0 0"></a-plane>
