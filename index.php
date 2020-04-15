@@ -76,7 +76,6 @@
 
         <a-plane color="#33ff93" height="20" width="20" rotation="-90 0 0" material="color: #00013c; emissive: #000000; src: #plane" geometry="height: 18.07; width: 14.31"></a-plane>
 
-        <a-entity gltf-model="texturas/scene.gltf" position="2.72286 0.546 -3.096" scale="0.311 0.311 0.311"></a-entity>
 
         <a-entity geometry="depth: 0.92" material="src: #diagrama" position="-4.20712 1.144 -3.216"
             scale="2.304 1.672 -0.096" id="diagrama" rotation="0 -119.99999999999999 0"></a-entity>
