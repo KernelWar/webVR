@@ -9,6 +9,14 @@
     <!-- Version 1.0.0 -->
     <script src="js/aframe.min.js"></script>
     <script src="js/aframe-orbit-controls.min.js"></script>
+    <script>
+    var scene = document.querySelector('a-scene');
+    if (window.location.hostname == "localhost") {
+      scene.setAttribute('inspector', 'url: http://localhost:3333/dist/aframe-inspector.js')
+    } else {
+      scene.setAttribute('inspector', 'url: https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js')
+    }
+  </script>
     <style>
         #datos li {
             list-style: none;
@@ -45,7 +53,7 @@
             <li>z: <span id="color-z" class="datos-color"> </span></li>
         </ul>
     </div>
-    <a-scene >
+    <a-scene id="escenario">
         <!-- 
             <a-camera position="4 4 -3"></a-camera>
             <a-plane color="#33ff93" height="20" width="20" rotation="-90 0 0"></a-plane>
