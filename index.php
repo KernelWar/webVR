@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="realidad-virtual.png" />
+    <meta charset="UTF-8">
     <title>WebVR</title>
     <!-- Version 1.0.0 -->
     <script src="js/aframe.min.js"></script>
@@ -57,7 +58,9 @@
             <img id="diagrama" src="texturas/h2o.png">
             <img id="plane" src="texturas/plane.jpg">
         </a-assets>
-        <a-entity camera="" look-controls="" orbit-controls="target: 0 4 -0.5; initialPosition: 0 3 0; zoomSpeed: 1.09" position="0 2 0" data-aframe-inspector-original-camera=""></a-entity>
+        
+        <a-entity camera="" look-controls="" orbit-controls="target: 0 4 -0.5; initialPosition: 0 3 0; zoomSpeed: 1.09"
+         position="0 2 0" data-aframe-inspector-original-camera=""></a-entity>
 
 
         <a-entity light="intensity: 0.61; castShadow: true; distance: 2; penumbra: 0.24; shadowBias: 1.17" position="0.07076 7.272 3.858" data-aframe-default-light="" aframe-injected=""></a-entity>
